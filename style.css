@@ -389,7 +389,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: none; /* header의 배경 이미지 제거 */
+        background-image: none;
         background-color: #080808;
     }
     .header-text{
