@@ -389,7 +389,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: none;
+        background-image: none !important;
         background-color: #080808;
     }
     .header-text{
@@ -398,6 +398,15 @@ nav .fas{
     }
     .header-text h1{
         font-size: 30px;
+    }
+    .tab-links {
+        font-size: 14px;
+    }
+    .tab-titles {
+        flex-direction: column;
+    }
+    .btn {
+        padding: 10px 30px;
     }
     nav .fas{
         display: block;
@@ -460,21 +469,6 @@ nav .fas{
 .header-text {
     font-size: 1.5em; /* 기본 크기를 조정 */
     margin-top: 50%;
-}
-
-@media only screen and (max-width: 600px) {
-    .header-text h1 {
-        font-size: 24px;
-    }
-    .tab-links {
-        font-size: 14px;
-    }
-    .tab-titles {
-        flex-direction: column;
-    }
-    .btn {
-        padding: 10px 30px;
-    }
 }
 
 
